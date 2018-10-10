@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "test"
   },
   "author": "Jeremy",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3"
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.4.0",
+    "nocache": "^2.0.0"
   }
 }
